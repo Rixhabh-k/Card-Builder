@@ -3,38 +3,7 @@ import axios from "axios";
 
 const App = () => {
 
-  const [users, setUsers] = useState([
-    {
-      name: "Rishabh",
-      role: "Frontend Developer",
-      email: "rishabh@gmail.com",
-      contact: "+91 7011741131",
-    },
-    {
-      name: "Aman Sharma",
-      role: "Backend Developer",
-      email: "aman@gmail.com",
-      contact: "+91 9876543210",
-    },
-    {
-      name: "Priya Verma",
-      role: "UI/UX Designer",
-      email: "priya@gmail.com",
-      contact: "+91 9123456780",
-    },
-    {
-      name: "Karan Mehta",
-      role: "Full Stack Developer",
-      email: "karan@gmail.com",
-      contact: "+91 9988776655",
-    },
-    {
-      name: "Neha Singh",
-      role: "Project Manager",
-      email: "neha@gmail.com",
-      contact: "+91 9090909090",
-    },
-  ]);
+  const [users, setUsers] = useState([]);
 
   const [username, setUserName] = useState('')
   const [email, setEmail] = useState('')
